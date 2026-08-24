@@ -3,5 +3,5 @@ from . import views
 
 urlpatterns = [
     path('vista1/', views.v1_app1),
-    path("vista2/", views.v2_app2)
+    path("vista2/", views.v2_app1)
 ]

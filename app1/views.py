@@ -6,5 +6,5 @@ from django.http import HttpResponse
 def v1_app1(request):
     return HttpResponse("<h1>Vista 1 App1</h1>")
 
-def v2_app2(request):
+def v2_app1(request):
     return HttpResponse("<h1>Vista 2 App1</h1>" "<p>Todo lo que necesita</p>")
